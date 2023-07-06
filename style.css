@@ -38,7 +38,7 @@
     /* border: 2px dashed yellowgreen; */
     color: rgb(46, 158, 186);
     background-image:url("images/13077.jpg");
-    linear-gradient:(45deg,rgb(8,8,8), rgb(53, 53, 53));
+    linear-gradient(to left top, blue, red);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -48,9 +48,93 @@
     margin-top: 15px;
     margin-bottom: 15px;
 }
-#btn{
+.btn{
     padding: 10px 20px;
     background-color: rgb(88, 182, 216);
     border: none;
     border-radius: 7.50px;
 }
+.about-container{
+    display: flex;
+    justify-content: space-around;
+    height: 100vh;
+    align-items: center;
+    background-image: url("images/vct.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #A654F1;
+
+}
+.about-title {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 50px;
+}
+.box{
+    width: 250px;
+    height: 290px;
+    box-shadow: 4px 4px 15px gray ;
+    background-color: black;
+    text-align: center;
+    padding: 15px;
+    color: antiquewhite;
+    border-radius: 10px;
+}
+.icon{
+ width: 70px;
+}
+.box-btn{
+    background-color:rgb(133, 217, 184) ;
+}
+.service-container{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+    padding: 19px;
+}
+.logo-box{
+    width:105px ;
+}
+.footer-container{
+    background-image: url("images/13077.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background-blend-mode: overlay; */
+    color: wheat;
+}
+.footer-container{
+    display: flex;
+    width: 75%;
+    height: 60vh;
+    margin: 0 auto;
+    justify-content: space-around;
+    align-items: center;
+    /* padding: 20px; */
+    border-bottom: 1px solid gray;
+}
+.logo-box{
+    width: 25%;
+}
+.logo-box img{
+    width:170px;
+}
+.copy{
+    text-align: center;
+    padding: 15px;
+}
+.fa-solid{
+    margin-right: 7px;
+}
+.footer-title{
+    margin-bottom: 30px;
+}
+.icons{
+    /* text-align: center; */
+    margin-top:20px;
+}
+.fa-brands{
+    margin: 10px;
+    font-size:20px;
+}
+
