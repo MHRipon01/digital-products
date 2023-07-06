@@ -10,3 +10,26 @@
 .progress{
     background-color: aquamarine;
 }
+.container{
+    display: flex;
+    justify-content: center;
+}
+.box{
+    padding: 10px;
+    width: 100px;
+    height: 30px;
+}
+.box1{
+    background-color: blueviolet;
+    margin: 25px;
+}
+.box2{
+    background-color: blue;
+    margin: 25px;
+}
+.box3{
+    background-color: burlywood;margin: 25px;
+}
+.box4{
+    background-color: cadetblue;margin: 25px;
+}
