@@ -38,10 +38,10 @@
     /* border: 2px dashed yellowgreen; */
     color: rgb(46, 158, 186);
     background-image:url("images/13077.jpg");
-    linear-gradient(to left top, blue, red);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 .description{
     font-size: 19px;
@@ -63,7 +63,11 @@
     background-size: cover;
     background-repeat: no-repeat;
     color: #A654F1;
+    background-attachment: fixed;
 
+}
+.about-btn{
+    background-color: #A654F1;
 }
 .about-title {
     text-align: center;
@@ -96,10 +100,13 @@
     width:105px ;
 }
 .footer-container{
-    background-image: url("images/13077.jpg");
-    background-size: cover;
-    background-position: center;
+    background-image: url("images/earth.jpg");
+    background-position: 0%;
+    background-position:center;
+    background-attachment: fixed;
     background-repeat: no-repeat;
+  background-size: cover;
+
     /* background-blend-mode: overlay; */
     color: wheat;
 }
